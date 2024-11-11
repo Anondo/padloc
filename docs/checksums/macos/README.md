@@ -12,13 +12,13 @@ Windows systems, we suggest you run them via WSL2.
 Unfortunately, because we sign our macOS builds (both via Electron and Tauri),
 it's not really possible to locally build the exact same file unless you had
 access to our certificates and keys. You can still see how we build them here
-([via Electron](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L166)
+([via Electron](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L166)
 and
-[via Tauri](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L116)),
+[via Tauri](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L116)),
 and see how to build unsigned ones yourself
-([via Electron](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-electron.yml)
+([via Electron](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-electron.yml)
 and
-[via Tauri](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-tauri.yml))
+[via Tauri](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-tauri.yml))
 , though.
 
 ## Verify what you're using has the same source code
@@ -26,7 +26,7 @@ and
 1. Download the Electron or Tauri dmg or app file.
 
 You can do that from
-[our releases page](https://github.com/padloc/padloc/releases) or from the store
+[our releases page](https://github.com/Anondo/padloc/releases) or from the store
 you've downloaded it from, to make sure that wasn't tampered with in the process
 of uploading there.
 
@@ -36,7 +36,7 @@ of uploading there.
     examples below, we'll use `tauri`.
 
     ```bash
-    wget https://github.com/padloc/padloc/releases/latest/download/sha256sum-tauri-dmg.txt
+    wget https://github.com/Anondo/padloc/releases/latest/download/sha256sum-tauri-dmg.txt
     ```
 
 3. Verify checksum matches:

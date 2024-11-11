@@ -20,4 +20,4 @@ synchronizing values every X minutes, depending on your setup.
 **NOTE:** If you'd like to setup Google Workspaces provisioning instead, there's
 a way which doesn't support groups, and requires the first login from the Google
 console, if you're self-hosting and don't mind changing your local code. You can
-read more about it at https://github.com/padloc/padloc/pull/456
+read more about it at https://github.com/Anondo/padloc/pull/456

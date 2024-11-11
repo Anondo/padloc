@@ -1,10 +1,10 @@
 # Padloc
 
-[![](https://github.com/padloc/padloc/workflows/Run%20Tests/badge.svg?branch=main)](https://github.com/padloc/padloc/actions?workflow=Run+Tests)
+[![](https://github.com/Anondo/padloc/workflows/Run%20Tests/badge.svg?branch=main)](https://github.com/Anondo/padloc/actions?workflow=Run+Tests)
 
 Simple, secure password and data management for individuals and teams.
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/padloc/padloc/tree/main)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Anondo/padloc/tree/main)
 
 ## About
 
@@ -49,14 +49,14 @@ coming soon!
 All kinds of contributions are welcome!
 
 If you want to **report a bug or have a feature request**, please
-[create an issue](https://github.com/padloc/padloc/issues).
+[create an issue](https://github.com/Anondo/padloc/issues).
 
 If you **have question, feedback or would just like to chat**, head over to the
-[discussions](https://github.com/padloc/padloc/discussions) section.
+[discussions](https://github.com/Anondo/padloc/discussions) section.
 
 If you want to **contribute to Padloc directly** by implementing a new feature
 or fixing an existing issue, feel free to
-[create a pull request](https://github.com/padloc/padloc/pulls)! However if you
+[create a pull request](https://github.com/Anondo/padloc/pulls)! However if you
 plan to work on anything non-trivial, please do talk to us first, either by
 commenting on an existing issue, creating a new issue or by pinging us in the
 dissusions section!
@@ -189,7 +189,7 @@ release a new version, simply:
 1. [Update project version](#updating-the-version)
 2. Commit and push.
 3. Run the
-   [Publish Release](https://github.com/padloc/padloc/actions?workflow=Publish+Release)
+   [Publish Release](https://github.com/Anondo/padloc/actions?workflow=Publish+Release)
    action.
 
 ## Licensing

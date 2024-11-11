@@ -8,7 +8,7 @@
     "homepage": "https://padloc.app/",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/padloc/padloc.git"
+        "url": "git+https://github.com/Anondo/padloc.git"
     },
     "engines": {
         "node": "16.x",

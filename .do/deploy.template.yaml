@@ -16,7 +16,7 @@ spec:
           environment_slug: node-js
           git:
               branch: main
-              repo_clone_url: "https://github.com/padloc/padloc"
+              repo_clone_url: "https://github.com/Anondo/padloc"
           http_port: 3000
           instance_count: 1
           instance_size_slug: basic-xs
@@ -77,7 +77,7 @@ spec:
           environment_slug: node-js
           git:
               branch: main
-              repo_clone_url: "https://github.com/padloc/padloc"
+              repo_clone_url: "https://github.com/Anondo/padloc"
           output_dir: packages/pwa/dist
           routes:
               - path: /

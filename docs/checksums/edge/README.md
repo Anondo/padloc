@@ -12,9 +12,9 @@ Windows systems, we suggest you run them via WSL2.
 Unfortunately, because we sign our Edge builds, it's not really possible to
 locally build the exact same file unless you had access to our certificates and
 keys. You can still
-[see how we build them here](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L54),
+[see how we build them here](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/publish-release.yml#L54),
 and
-[see how to build unsigned ones yourself](https://github.com/padloc/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-web-extension.yml),
+[see how to build unsigned ones yourself](https://github.com/Anondo/padloc/blob/ea05def083df89823d7c15c7bbeb6ef1a1b40383/.github/workflows/build-web-extension.yml),
 though.
 
 ## Verify what you're using has the same source code
@@ -22,14 +22,14 @@ though.
 1. Download the crx file.
 
     You can do that from
-    [our releases page](https://github.com/padloc/padloc/releases) or from the
+    [our releases page](https://github.com/Anondo/padloc/releases) or from the
     store you've downloaded it from, to make sure that wasn't tampered with in
     the process of uploading there.
 
 2. Download the latest `sha256sum-crx.txt` checksum file:
 
     ```bash
-    wget https://github.com/padloc/padloc/releases/latest/download/sha256sum-crx.txt
+    wget https://github.com/Anondo/padloc/releases/latest/download/sha256sum-crx.txt
     ```
 
 3. Verify checksum matches:

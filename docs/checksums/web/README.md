@@ -31,7 +31,7 @@ Windows systems, we suggest you run them via WSL2.
 
     ```bash
     cd packages/pwa/dist && \
-    wget https://github.com/padloc/padloc/releases/latest/download/sha256sums-web.txt
+    wget https://github.com/Anondo/padloc/releases/latest/download/sha256sums-web.txt
     ```
 
 4. Verify checksums match:
@@ -170,7 +170,7 @@ Windows systems, we suggest you run them via WSL2.
     HOST_TO_CHECK=web.padloc.app && \
     wget -r -p -U Mozilla https://$HOST_TO_CHECK && \
     cd $HOST_TO_CHECK && \
-    wget https://github.com/padloc/padloc/releases/latest/download/parse-csp.ts && \
+    wget https://github.com/Anondo/padloc/releases/latest/download/parse-csp.ts && \
     deno run --allow-read=index.html --allow-net=$HOST_TO_CHECK --allow-write=. parse-csp.ts
     ```
 
@@ -183,7 +183,7 @@ Windows systems, we suggest you run them via WSL2.
 2. Download the latest `sha256sums-web.txt` checksum file:
 
     ```bash
-    wget https://github.com/padloc/padloc/releases/latest/download/sha256sums-web.txt
+    wget https://github.com/Anondo/padloc/releases/latest/download/sha256sums-web.txt
     ```
 
 3. Verify checksums match:

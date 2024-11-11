@@ -96,4 +96,4 @@ and this project adheres to
 
 Initial release of Padloc 4 (changes before 4.0.0 are not included in this
 change log), though
-[some can be seen in this commit](https://github.com/padloc/padloc/blob/12b027b37ccf123b15a066e4715354f4cf080384/CHANGELOG.md).
+[some can be seen in this commit](https://github.com/Anondo/padloc/blob/12b027b37ccf123b15a066e4715354f4cf080384/CHANGELOG.md).
