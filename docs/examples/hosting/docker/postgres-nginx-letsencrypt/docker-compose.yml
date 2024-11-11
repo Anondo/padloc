@@ -12,6 +12,7 @@ services:
         volumes:
             - data:/var/lib/postgresql/data
         restart: unless-stopped
+        container_name: pandora_postgres_database
     server:
         image: padloc/server
         build:
@@ -40,6 +41,7 @@ services:
         volumes:
             - attachments:/attachments
         restart: unless-stopped
+        container_name: pandora_server
     pwa:
         image: padloc/pwa
         env_file: .env
@@ -55,6 +57,7 @@ services:
             - pwa:/pwa
         command: ["build"]
         restart: on-failure
+        container_name: pandora_frontend
     nginx:
         env_file: .env
         image: nginx
@@ -69,6 +72,7 @@ services:
         ports:
             - 80:80
             - 443:443
+        container_name: pandora_nginx
     certbot:
         env_file: .env
         image: certbot/certbot
@@ -80,6 +84,7 @@ services:
             - 80:80
             - 443:443
         profiles: ["certbot"]
+        container_name: pandora_certbot
 volumes:
     data:
     attachments:
